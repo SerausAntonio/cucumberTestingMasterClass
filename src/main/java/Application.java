@@ -10,9 +10,9 @@ public class Application {
     static  WebDriver driver;
     public static void main(String[] args) {
         System.out.println("Hello i am here");
-        System.out.println(System.getProperty("user.dir"));
+     //   System.out.println(System.getProperty("user.dir"));
 
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+     //   System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("http://www.wikipedia.org");
